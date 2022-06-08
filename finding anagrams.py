@@ -15,6 +15,12 @@ def find_anagram(word, anagram):
         return True
     else:   
         return False 
+    
+   #calling the function
+find_anagram("below", "elbow")
+find_anagram("hello", "check")
+find_anagram("python", "typhon")
+
 print(find_anagram("below", "elbow"))
 print(find_anagram("hello","check"))
 print(find_anagram("python", "typhon"))
